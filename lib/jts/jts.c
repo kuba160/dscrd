@@ -47,8 +47,11 @@
 #include "jts_b.h"
 #include "jts.h"
 
-//#define trace(...) {;}
+#ifdef DEBUG
 #define trace(...) { fprintf (stdout, __VA_ARGS__); fflush(stdout); }
+#else
+#define trace(...) {;}
+#endif
 
 #define JTS_OBJECT 1
 #define JTS_ARRAY 2

@@ -48,8 +48,17 @@ int main () {
 	// Initialize dscrd library
 	dscrd_initialize ();
 
-	// open new session and authenticate as TOKEN_TYPE with TOKEN
-	DiscordClient *client = DiscordClient_open (TOKEN_TYPE, TOKEN);
+	// Authenticate using dscrdd, if failed use TOKEN_TYPE and TOKEN
+	DscrdAuth auth;
+	DiscordClient *client;
+	if (dscrdd_auth(&auth, "gateway_callback")) {
+		printf ("Connecting with manual auth info.\n");
+		client = DiscordClient_open (TOKEN_TYPE, TOKEN);
+	}
+	else {
+		printf ("Connecting with dscrdd auth info.\n");
+		client = DiscordClient_open_auth (&auth);
+	}
 	if (!client) {
 		printf ("Opening Discord session failed. %s\n", dscrd_error());
 		return 1;

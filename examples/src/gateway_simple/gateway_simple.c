@@ -36,7 +36,7 @@ int main () {
 	// Initialize dscrd library
 	dscrd_initialize ();
 
-	// Authenticate using dscrdd, if fails use TOKEN_TYPE and TOKEN
+	// Authenticate using dscrdd, if failed use TOKEN_TYPE and TOKEN
 	DscrdAuth auth;
 	DiscordClient *client;
 	if (dscrdd_auth(&auth, "gateway_callback")) {
