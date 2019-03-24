@@ -41,6 +41,10 @@ project "rest-client-c"
   language "C"
   targetdir "."
   pic "on"
+  prebuildcommands {
+  "git submodule update",
+  "echo \"\" > rest-client-c/lib/config.h"
+  }
 
   files { "rest-client-c/lib/object.c",
           "rest-client-c/lib/rest_client.c"}
