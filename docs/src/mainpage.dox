@@ -1,0 +1,23 @@
+/** @mainpage
+
+@section overview Overview
+dscrd is a Discord library which can be accessed from C programs.
+
+@section pages Tutorial pages
+- @ref fast_start General introduction / HOWTO to dscrd library
+
+@section doc_pages Documentation pages
+- dscrd.h dscrd library header<br>
+
+@section dev_pages Library developer documentation
+- dscrd_i.h dscrd internal library header<br>
+- rest.h Rest API wrapper<br>
+- jts.h JSON to struct library/hack<br>
+
+
+
+@section resources Useful Resurces
+- <a href="https://discordapp.com/developers/docs/intro">Discord official API documentation</a>
+- <a href="https://github.com/discordapp/discord-rpc">Discord Rich presence SDK on Github</a>
+
+*/

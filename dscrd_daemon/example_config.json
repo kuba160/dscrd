@@ -1,0 +1,14 @@
+{
+	"default_enabled": true,
+	"default_token": "YOUR_TOKEN_THAT_WILL_BE_RETURNED_BY_DEFAULT",
+	"default_token_type": "Bot",
+	"default_additional_tokens": [
+		"TOKENS_THAT_WILL_BE_RETURNED_IF_AN_APP_NEEDS_MORE"
+		],
+	"apps": [
+		{ "name": "APP_NAME", "token": "TOKEN_RETURNED_FOR_THAT_APP", "token_type": "Bot" }
+		],
+	"autostart": [
+		"AUTOSTART_FEATURE_NOT_IMPLEMENTED", "YET"
+	]
+}

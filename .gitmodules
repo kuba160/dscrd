@@ -1,0 +1,3 @@
+[submodule "rest-client-c"]
+	path = rest-client-c
+	url = https://github.com/EMCECS/rest-client-c

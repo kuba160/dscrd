@@ -1,0 +1,82 @@
+/** @page fast_start Fast start
+
+@section general General library usage
+### Normal (authenticated) library usage:
+1. Initialize library with @ref dscrd_initialize();
+	2. 		Authenticate with @ref DiscordClient_open (type, token), where type is one of @ref token_type_e and token is your token string. You will get @ref DiscordClient pointer in return. You will need it for dscrd library calls.
+		3.			Call library functions and receive other objects like @ref Webhook.
+		4.			Free all objects you receive, for example use @ref Webhook_destroy (@ref Webhook) to free Webhooks.
+	5.		Close Discord session with @ref DiscordClient_close (@ref DiscordClient).
+6. Close library with @ref dscrd_terminate();
+
+### Webhook-only (no-authentication) library usage:
+1. Initialize library with @ref dscrd_initialize();
+	2. 		Load your webhooks with no-auth functions like @ref  Webhook_get_no_auth() or Webhook_get_no_auth_url().
+		3.			Call webhook functions like Webhook_execute/modify/delete and so on.
+	5.		Free all allocated webhooks.
+6. Close library with @ref dscrd_terminate();
+
+@section gateway_api Gateway API
+Gateway API in dscrd library is optional. It can even be excluded from build.
+You can check if Gateway API was disabled by calling @ref dscrd_has_gateway().
+To use Gateway API with your @ref DiscordClient you will need to initiate it with @ref DiscordClient_gateway().
+Function will return 0 on connection success. After you done it you can use all functions which use gateway.
+When you're finished no more action is needed except the usual @ref DiscordClient_close().
+
+
+@section misc Misc
+- Use @ref dscrd_error() to get error string for last function. Most of the time usage of this function will look like this:
+@code
+DiscordChannel *channel =  DiscordChannel_by_name (someguild, "channel");
+if (!channel) {
+	printf ("Receiving channel failed. %s\n", dscrd_error());
+	return 1;
+}
+DiscordUser *user = ...
+if (!user) {
+	printf ("Receiving user failed. %s\n", dscrd_error());
+	return 1;
+}
+Webhook *webhook = ...
+if (!webhook) {
+	printf ("Receiving webhook failed. %s\n", dscrd_error());
+	return 1;
+}
+@endcode
+If your code is pyramid-structured like, then you can use @ref dscrd_error_long(). It will print exact function which failed. Example usage of @ref dscrd_error_long() would look like this:
+@code
+int success = 0;
+DiscordChannel *channel =  DiscordChannel_by_name (someguild, "channel");
+if (channel) {
+	DiscordUser *user = ...
+	if (user) {
+		Webhook *webhook = ...
+		if (webhook) {
+			success = 1;
+			...
+			Webhook_free (webhook);
+		}
+		DiscordUser_free (user);
+	}
+	DiscordChannel_free (channel);
+}
+if (!success) {
+	printf ("%s\n", dscrd_error_long());
+}
+@endcode
+
+
+@cond DONOTPROCESS
+<em>This section contains not updated information.</em>
+
+@section hacktips Hacktips
+- Most of the library functions require specified pointer, let's say @ref DiscordChannel.<br>
+  They only essential information in such structure is its id (Channel ID).<br>
+  Each structure (except @ref DiscordClient) has id at the beginning, so theoretically you can do cast like this:
+  @code(char *) "123456789" => (DiscordChannel *) "123456789" @endcode
+  Real code example could look like this: 
+  @code Webhook_create (client, (DiscordChannel *) "123456789", "New Webhook", NULL); @endcode
+-
+
+@endcond
+*/
