@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['a',['a',['../structjson_to_struct__custom__s.html#ab4bcd4b8935eee7a4c0c57a082e915c6',1,'jsonToStruct_custom_s::a()'],['../structjson_to_struct__s.html#a6b2fc8ae08a92d20f90276bf19098412',1,'jsonToStruct_s::a()']]],
+  ['activity_5fgame',['ACTIVITY_GAME',['../dscrd_8h.html#a8c0fc5d07a879050872fd003e47b12a5abd03e6a3763e2d33c36df0e355765d61',1,'dscrd.h']]],
+  ['activity_5flistening',['ACTIVITY_LISTENING',['../dscrd_8h.html#a8c0fc5d07a879050872fd003e47b12a5a54306a274aecc32004d3e2ea9f3862b3',1,'dscrd.h']]],
+  ['activity_5fstreaming',['ACTIVITY_STREAMING',['../dscrd_8h.html#a8c0fc5d07a879050872fd003e47b12a5a66544fe1908fbd3c9847aa4e34bcd4a2',1,'dscrd.h']]],
+  ['activity_5ftypes',['activity_types',['../dscrd_8h.html#a8c0fc5d07a879050872fd003e47b12a5',1,'dscrd.h']]],
+  ['add_5freactions',['ADD_REACTIONS',['../dscrd_8h.html#a80dd33113ac077d9603b73c01d1ae88ca21d78fdb0b9a2a2ede11a669f79b23ac',1,'dscrd.h']]],
+  ['administrator',['ADMINISTRATOR',['../dscrd_8h.html#a80dd33113ac077d9603b73c01d1ae88cab5e866a26f93fb50de1acfff1b5552a3',1,'dscrd.h']]],
+  ['afk_5fchannel_5fid',['afk_channel_id',['../struct_discord_guild__s.html#a43fecd77de1edd1414e90525ccd92185',1,'DiscordGuild_s']]],
+  ['afk_5ftimeout',['afk_timeout',['../struct_discord_guild__s.html#aa2310a796e2bc27600722a9d12d5a71e',1,'DiscordGuild_s']]],
+  ['align',['align',['../structjson_to_struct__element__s.html#a0cceec8a82e82054b398fd9d98f0e7bb',1,'jsonToStruct_element_s']]],
+  ['anonymous',['Anonymous',['../dscrd_8h.html#a1b43fc8a33924d4065b41b55066767daab693438776a0eb1c70d4d3a2b0d4fd81',1,'dscrd.h']]],
+  ['api',['api',['../struct_discord_client__s.html#ab502c52c9b458a2764c0e8ff4ce5f6d7',1,'DiscordClient_s']]],
+  ['api_5fdata',['api_data',['../struct_rest_resp__s.html#ae04bbd6fb7c0d7d5f0a6afd7341c19df',1,'RestResp_s']]],
+  ['application_5fid',['application_id',['../struct_discord_activity__s.html#a6ed2177e18ece32c695403b62a1684ee',1,'DiscordActivity_s::application_id()'],['../struct_discord_guild__s.html#a6ed2177e18ece32c695403b62a1684ee',1,'DiscordGuild_s::application_id()'],['../struct_discord_channel__s.html#a6ed2177e18ece32c695403b62a1684ee',1,'DiscordChannel_s::application_id()']]],
+  ['attach_5ffiles',['ATTACH_FILES',['../dscrd_8h.html#a80dd33113ac077d9603b73c01d1ae88ca1cc7f2579618d04c2d31221f46b8d519',1,'dscrd.h']]],
+  ['auth_5fstring',['auth_string',['../struct_discord_client__s.html#a8cb191460a9407983cedaa99374a41cc',1,'DiscordClient_s']]],
+  ['author',['author',['../struct_discord_message__s.html#ae5d0b9d867f02ec13789473d601fa783',1,'DiscordMessage_s']]],
+  ['avatar',['avatar',['../struct_discord_user__s.html#a9a900bc4d340c214ea7509714dc8d78b',1,'DiscordUser_s::avatar()'],['../struct_webhook__s.html#a9a900bc4d340c214ea7509714dc8d78b',1,'Webhook_s::avatar()']]]
+];

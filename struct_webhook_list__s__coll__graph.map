@@ -1,0 +1,5 @@
+<map id="WebhookList_s" name="WebhookList_s">
+<area shape="rect" id="node2" href="$struct_webhook__s.html" title="Webhook structure. " alt="" coords="16,213,107,240"/>
+<area shape="rect" id="node3" href="$struct_discord_client__s.html" title="Discord session. " alt="" coords="31,5,145,32"/>
+<area shape="rect" id="node4" href="$struct_discord_user__s.html" title="Discord user. " alt="" coords="149,109,259,136"/>
+</map>

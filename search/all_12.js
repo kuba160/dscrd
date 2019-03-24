@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['send_5fmessages',['SEND_MESSAGES',['../dscrd_8h.html#a80dd33113ac077d9603b73c01d1ae88caff83ec5f4a26bf2e8309fa33aefb1576',1,'dscrd.h']]],
+  ['send_5ftts_5fmessages',['SEND_TTS_MESSAGES',['../dscrd_8h.html#a80dd33113ac077d9603b73c01d1ae88caeea99e357e44841445c35b5a6a4bb295',1,'dscrd.h']]],
+  ['size',['size',['../structjson_to_struct__element__s.html#aab938108caad0d0e47d6885b5ba2d23a',1,'jsonToStruct_element_s::size()'],['../structjson_to_struct__element__custom__s.html#aab938108caad0d0e47d6885b5ba2d23a',1,'jsonToStruct_element_custom_s::size()']]],
+  ['speak',['SPEAK',['../dscrd_8h.html#a80dd33113ac077d9603b73c01d1ae88ca1e9c067df46c155c445ce74c6aaeed1e',1,'dscrd.h']]],
+  ['splash',['splash',['../struct_discord_guild__s.html#a863888cb3eab3c0e3c0d88bce3c6e8c5',1,'DiscordGuild_s']]],
+  ['state',['state',['../struct_discord_activity__s.html#a72c0a3c4c27b8a54c98b4f4e7819c106',1,'DiscordActivity_s']]],
+  ['status_5fdnd',['STATUS_DND',['../dscrd_8h.html#a52ee035269e415d5ed360714fec44c5fa7269ac5221cc4ce401cdfed8a5d724ac',1,'dscrd.h']]],
+  ['status_5fidle',['STATUS_IDLE',['../dscrd_8h.html#a52ee035269e415d5ed360714fec44c5fa99ade6ecff7f9e1fb13b62be39b85d82',1,'dscrd.h']]],
+  ['status_5finvisible',['STATUS_INVISIBLE',['../dscrd_8h.html#a52ee035269e415d5ed360714fec44c5fa35c8b555479cad6fe5552c413b003dc8',1,'dscrd.h']]],
+  ['status_5foffline',['STATUS_OFFLINE',['../dscrd_8h.html#a52ee035269e415d5ed360714fec44c5fab052c62f9a56da4dcbf79a55da434b3f',1,'dscrd.h']]],
+  ['status_5fonline',['STATUS_ONLINE',['../dscrd_8h.html#a52ee035269e415d5ed360714fec44c5fa37cca7d993e124e770fa6f820908f194',1,'dscrd.h']]],
+  ['stj',['STJ',['../dscrd__i_8h.html#aa85acca705d5b56df3c0f77a9c44be8f',1,'dscrd_i.h']]],
+  ['stj_5ffree',['STJ_FREE',['../dscrd__i_8h.html#adcb38754cd904b7087991295d424b27e',1,'dscrd_i.h']]],
+  ['stj_5fjsonify',['stj_jsonify',['../dscrd__i_8h.html#a741dfe96bcefd8082017cc54f7ce88ce',1,'dscrd_i.h']]],
+  ['stj_5fjsonify_5flist',['stj_jsonify_list',['../dscrd__i_8h.html#a2fc3e1b9ffd7e99d4673cf76d063f6f3',1,'dscrd_i.h']]],
+  ['stj_5fl',['STJ_L',['../dscrd__i_8h.html#a3391efd6ac3b617f9e1c1120b79fc584',1,'dscrd_i.h']]],
+  ['system_5fchannel_5fid',['system_channel_id',['../struct_discord_guild__s.html#a4be211bacabf7d4e4c3d4debed252e43',1,'DiscordGuild_s']]]
+];

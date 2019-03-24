@@ -1,0 +1,5 @@
+<map id="DiscordChannelList_s" name="DiscordChannelList_s">
+<area shape="rect" id="node2" href="$struct_discord_channel__s.html" title="Discord channel. " alt="" coords="16,109,145,136"/>
+<area shape="rect" id="node3" href="$struct_discord_client__s.html" title="Discord session. " alt="" coords="139,5,254,32"/>
+<area shape="rect" id="node4" href="$struct_discord_user__s.html" title="Discord user. " alt="" coords="214,109,323,136"/>
+</map>
